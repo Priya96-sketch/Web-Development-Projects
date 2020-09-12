@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--Giving the title which will come at the top i.e.,the website-->
+	<title>Priya's Sweet Feed</title>
+
+	<!--linking css to html file-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Viewport-This gives the browser instructions on how to control the page's dimensions and scaling.-->
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row clearfix">
+
+				<!--this is the main navigation part or header part about all the menus and intro-->
+				<img src="images/logo.png" class="logo">
+				<ul class="main-nav" id="check-class">
+					<li><a href="#">DELIVERY</a></li>
+					<li><a href="#">HOW TO ORDER</a></li>
+					<li><a href="#">check more</a></li>
+					<li><a href="#">sign up</a></li>
+					
+				</ul>
+				<a href="#" class="mobile-icon" id="check-class" onclick="slideshow()"><i class="fa fa-bars"></i> </a>
+			</div>
+		</nav>
+
+		<!--This part includes the options to order and to know more as well giving a short introduction to my Cake shop.-->
+			<div class="main content-header">
+		<h1>welcome to <span class="colorchange">Priya's Sweet Feed</span>.<br>
+		    House of Cake Lovers</h1>
+			<a href="#" class="btn btn-full">CLICK TO ORDER</a>
+			<a href="#" class="btn btn-nav">ShOW ME MORE</a>
+			</div>
+	</header>
+
+	<script type="text/javascript">
+		
+		function slideshow()
+		{
+			var x= document.getElementById('check-class');
+			if(x.style.display === "none"){
+				x.style.display="block";
+			}else{
+				x.style.display="none";
+			}
+		}
+	</script>
+
+</body>
+</html>
