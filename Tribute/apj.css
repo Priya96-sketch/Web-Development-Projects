@@ -1,0 +1,25 @@
+html {
+  font-size: 20px;
+}
+body {
+  font-family: monospace;
+  color: black;
+  text-align: center;
+  background-image: linear-gradient(orange, white, green);
+}
+img {
+  border-radius: 30px;
+}
+ul {
+  max-width: 1050px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+p {
+  text-decoration: underline;
+}
+p1 {
+  font-style: italic;
+  letter-spacing: 0.2px;
+}
